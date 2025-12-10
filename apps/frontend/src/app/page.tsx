@@ -1,3 +1,9 @@
+import ReactFlowComponent from "@/components/modules/dashboard/react-flow";
+
 export default function Home() {
-  return <div className=""></div>;
+  return (
+    <div>
+      <ReactFlowComponent />
+    </div>
+  );
 }
